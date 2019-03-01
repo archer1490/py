@@ -83,7 +83,6 @@ pictures = [
     ''',
 ]
 
-word = input('Введите слово: ')
 
 def getGuess(alreadyGuessed):
     while True:
@@ -98,6 +97,7 @@ def getGuess(alreadyGuessed):
         else:
             return guess
 
+word = input('Введите слово: ')
 correct_letters = set(word)
 guessed_letters = []
 missed_letters = []
