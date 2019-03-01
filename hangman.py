@@ -83,7 +83,6 @@ pictures = [
     ''',
 ]
 
-
 def getGuess(alreadyGuessed):
     while True:
         guess = input('Введите букву: ')
